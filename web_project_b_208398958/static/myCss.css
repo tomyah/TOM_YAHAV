@@ -1,0 +1,105 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:#a5dff9 ;
+    color:black;
+    font-weight: bold;
+    font-size: x-large;   
+}
+
+#myBody{
+    background-image: url("../media/bgMain2.jpg") ;
+    background-position: center; 
+    background-repeat: round; 
+    background-size: cover; 
+}
+
+/*--forms css--*/
+
+#saveBtn , #mainBtns > button , #findResultsBtn {
+    background-color: #fee6fe;
+    color:black;
+    font-weight: bold;
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;    
+}
+
+
+.form-control {
+    color:black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.logo{
+    text-align: center;
+    
+}
+.logoBord{
+    
+    border-bottom: azure solid 3px;
+}
+
+.logo > img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.myForm{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+     margin-top: 2%;
+}
+
+#apptFrom , #apptTo , #rapptFrom , #rapptTo {
+    text-align: left;
+}
+
+.daysSelect > option , #range_weight_disp , .logo > h2{
+    color:black;
+    font-weight: bold;
+}
+
+.nonDisplay{
+    display: none;
+}
+
+
+.errMes{
+    color:#ef5285;
+    font-size: 15px;
+}
+/*---main page--*/
+
+#mainBtns{
+    text-align: center;
+}
+
+#loginBtn{
+    background-color: #fee6fe;
+    color:black;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 1%;
+    margin: 1%;
+}
+#mainBtns > button  {
+    border-radius: 12px;
+    padding: 3%;
+}
+
+
+/*modal css*/
+
+ .modal-btn{
+    background-color: #fee6fe;
+
+}
+
+
+/*#feee7d, #60c5ba, #ef5285, #a5dff9
+
+
+
