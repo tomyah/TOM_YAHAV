@@ -1,0 +1,35 @@
+.mover {
+	width: 50px;
+	height: 50px;
+	background: #fee6fe;
+	border-radius: 50%;
+	animation: move 3s infinite ease-in-out;
+  }
+  
+  @keyframes move {
+	20%, 100% {
+	  opacity: 0;
+	  transform: translate(200px, 0);
+	}
+	0% {
+	  opacity: 0;
+	}
+	10% {
+	  opacity: 1;
+	}
+  }
+  
+  .area {
+	width: 250px;
+	height: 50px;
+	margin: 0 auto;
+	border: 2px solid #fee6fe;
+	border-radius: 50px;
+  }
+  body {
+	padding: 20px;
+  }
+
+  #animationWait{
+	margin-top: 5%;
+  }

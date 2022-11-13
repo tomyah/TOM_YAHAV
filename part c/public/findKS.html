@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <title>Find keeper&sitter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a id="search-again" href="/public/">Back to homepage</a>
+
+      <div class="row logo logoBord"><img src="/public/images/logo.jpg" /></div>
+      <div class="row"></div>
+      <div class="row">
+        <div class="myForm">
+          <button onclick="findKS(event)">
+            Find the nearest babysitter - please allow location services
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--<button onclick="goToPage1()"> click </button>-->
+
+    <div id="resDiv"></div>
+
+    <footer></footer>
+
+    <script src="/public/script.js"></script>
+  </body>
+</html>
